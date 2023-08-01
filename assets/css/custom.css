@@ -1,1 +1,29 @@
 /* Comment */
+@font-face {
+    font-family: 'JetbrainsMono';
+    src: url('../webfonts/JetBrainsMono-Regular.woff2') format('woff');
+}
+
+h3 {
+    font-family: 'JetbrainsMono', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+div.trim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 200px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+div.divCenter {
+    text-align: center;
+}
+
+a.nav-link:hover,
+a.dropdown-item:hover {
+    color: red;
+}

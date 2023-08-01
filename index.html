@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="./assets/bootstrap/css/bootstrap.css" rel="stylesheet" />
+        <link href="./assets/css/custom.css" rel="stylesheet" />
         <title>Yee-haw, Texas!</title>
     </head>
     <body>
@@ -12,7 +13,13 @@
             data-bs-theme="dark"
         >
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Nav Placeholder</a>
+                <a class="navbar-brand" href="#">
+                    <img
+                        src="./assets/images/texasflag.png"
+                        width="30"
+                        height="30"
+                        alt="Texas flag emoji"
+                /></a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -33,15 +40,25 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./city-dallas.html"
-                                >City #1</a
+                            <a
+                                class="nav-link"
+                                href="./assets/html/city-dallas.html"
+                                >Dallas</a
                             >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">City #2</a>
+                            <a
+                                class="nav-link"
+                                href="./assets/html/city-houston.html"
+                                >Houston</a
+                            >
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">City #3</a>
+                            <a
+                                class="nav-link"
+                                href="./assets/html/city-austin.html"
+                                >Austin</a
+                            >
                         </li>
                         <li class="nav-item dropdown">
                             <a
@@ -51,14 +68,25 @@
                                 role="button"
                                 aria-haspopup="true"
                                 aria-expanded="false"
-                                >Other stuff</a
+                                >More</a
                             >
                             <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">City #4</a>
-                                <a class="dropdown-item" href="#">City #5</a>
-                                <a class="dropdown-item" href="#">City #6</a>
+                                <a
+                                    class="dropdown-item"
+                                    href="./assets/html/city-san-antonio.html"
+                                    >San Antonio</a
+                                >
+                                <a
+                                    class="dropdown-item"
+                                    href="./assets/html/city-galveston.html"
+                                    >Galveston</a
+                                >
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">More?</a>
+                                <a
+                                    class="dropdown-item"
+                                    href="./assets/html/ghosts.html"
+                                    >Ghosts?</a
+                                >
                             </div>
                         </li>
                     </ul>
@@ -69,34 +97,20 @@
             <div class="row">
                 <div class="col-8">
                     <div class="card mb-3">
-                        <h3 class="card-header">Header Placeholder</h3>
+                        <h3 class="card-header">Texas</h3>
                         <div class="card-body">
-                            <h5 class="card-title">Title Placeholder</h5>
+                            <h5 class="card-title">The Lone Star State</h5>
                             <h6 class="card-subtitle text-muted">
-                                Subtitle Placeholder
+                                State Motto: Friendship
                             </h6>
                         </div>
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="d-block user-select-none"
-                            width="100%"
-                            height="200"
-                            aria-label="Placeholder: Image of Texas Placeholder"
-                            focusable="false"
-                            role="img"
-                            preserveAspectRatio="xMidYMid slice"
-                            viewBox="0 0 318 180"
-                            style="font-size: 1.125rem; text-anchor: middle"
-                        >
-                            <rect
-                                width="100%"
-                                height="100%"
-                                fill="#868e96"
-                            ></rect>
-                            <text x="50%" y="50%" fill="#dee2e6" dy=".3em">
-                                Image of Texas PLACEHOLDER
-                            </text>
-                        </svg>
+                        <div class="trim">
+                            <img
+                                src="./assets/images/bluebonnets.jpg"
+                                class="img-fluid"
+                                alt="A field of bluebonnet flowers, the state flower."
+                            />
+                        </div>
                         <div class="card-body">
                             <p class="card-text">
                                 <strong>MAIN CONTENT PLACEHOLDER</strong> Some
@@ -106,36 +120,85 @@
                                 about the state.
                             </p>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                List item placeholder #1
-                            </li>
-                            <li class="list-group-item">
-                                List item placeholder #2
-                            </li>
-                            <li class="list-group-item">
-                                List item placeholder #3
-                            </li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-                        <div class="card-footer text-muted">1845 days ago</div>
-                    </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <h4 class="card-title">Card title</h4>
-                            <h6 class="card-subtitle mb-2 text-muted">
-                                Card subtitle
-                            </h6>
-                            <p class="card-text">
-                                Some quick example text to build on the card
-                                title and make up the bulk of the card's
-                                content.
-                            </p>
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
+                        <div class="row">
+                            <div class="col">
+                                <div class="card-body">
+                                    <ol class="list-group list-group-numbered">
+                                        <strong
+                                            >Things Texas is number 1
+                                            at!</strong
+                                        >
+                                        <li class="list-group-item">
+                                            Amount of
+                                            <a
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="http://www.tpj.org/docs/2000/09/reports/sos/chapter1.pdf"
+                                            >
+                                                toxic</a
+                                            >
+                                            and cancerous manufacturing
+                                            emissions
+                                        </li>
+                                        <li class="list-group-item">
+                                            Number of job
+                                            <a
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="http://www.tpj.org/docs/2000/09/reports/sos/chapter4.pdf"
+                                                >discrimination</a
+                                            >
+                                            lawsuits filed
+                                        </li>
+                                        <li class="list-group-item">
+                                            Number of
+                                            <a
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="http://www.deathpenaltyinfo.org/article.php?scid=8&did=186"
+                                                >executions</a
+                                            >
+                                        </li>
+                                    </ol>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card-body">
+                                    <ul class="list-group list-group-flush">
+                                        <strong>Where does Texas rank?</strong>
+                                        <li class="list-group-item">
+                                            <strong>50th</strong> in percentage
+                                            of high school
+                                            <a
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="https://www.census.gov/content/dam/Census/library/publications/2004/demo/p20-550.pdf"
+                                                >graduates</a
+                                            >
+                                            age 25 and over
+                                        </li>
+                                        <li class="list-group-item">
+                                            <strong>38th</strong> in mean
+                                            Scholastic Assessment Test (<a
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="https://www.learner.com/blog/states-with-highest-sat-scores#interesting-data-findings"
+                                                >SAT</a
+                                            >) scores
+                                        </li>
+                                        <li class="list-group-item">
+                                            <strong>42nd</strong> in per capita
+                                            spending on
+                                            <a
+                                                target="_blank"
+                                                rel="noopener"
+                                                href="https://rehabs.com/explore/mental-health-spending-by-state-across-the-us/"
+                                                >mental health</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -151,7 +214,7 @@
                                     aria-expanded="true"
                                     aria-controls="collapseOne"
                                 >
-                                    ASIDE Item #1
+                                    Texas Demographics
                                 </button>
                             </h2>
                             <div
@@ -161,14 +224,24 @@
                                 data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    <strong
-                                        >This is the first item's body.</strong
-                                    >
-                                    It is shown by default, and will contain
-                                    interesting facts about the state. These
-                                    facts will be linked to supporting
-                                    documents.
-                                    <code>Population</code>, for example.
+                                    <strong>Facts, according to Google.</strong
+                                    ><br />
+                                    <table class="table">
+                                        <tbody>
+                                            <tr class="table-danger">
+                                                <td>Population</td>
+                                                <td>29.53 Million (2021)</td>
+                                            </tr>
+                                            <tr class="table-secondary">
+                                                <td>Statehood</td>
+                                                <td>1845</td>
+                                            </tr>
+                                            <tr class="table-primary">
+                                                <td>Avg Income</td>
+                                                <td>$31,462 USD (2020)</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -182,7 +255,7 @@
                                     aria-expanded="false"
                                     aria-controls="collapseTwo"
                                 >
-                                    ASIDE Item #2
+                                    Famous people from Texas
                                 </button>
                             </h2>
                             <div
@@ -193,20 +266,75 @@
                             >
                                 <div class="accordion-body">
                                     <strong
-                                        >This is the second item's accordion
-                                        body.</strong
-                                    >
-                                    It is hidden by default, until the collapse
-                                    plugin adds the appropriate classes that we
-                                    use to style each element. These classes
-                                    control the overall appearance, as well as
-                                    the showing and hiding via CSS transitions.
-                                    You can modify any of this with custom CSS
-                                    or overriding our default variables. It's
-                                    also worth noting that just about any HTML
-                                    can go within the
-                                    <code>.accordion-body</code>, though the
-                                    transition does limit overflow.
+                                        >Famous people from Texas, according to
+                                        Google.</strong
+                                    ><br />
+                                    <table class="table">
+                                        <tbody>
+                                            <thead class="table-primary">
+                                                <td>Name</td>
+                                                <td>Birth-Death</td>
+                                                <td>Place of Death</td>
+                                            </thead>
+                                            <tr class="">
+                                                <td>
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener"
+                                                        href="https://en.wikipedia.org/wiki/Lee_Harvey_Oswald"
+                                                        >Lee Harvey Oswald</a
+                                                    >
+                                                </td>
+                                                <td>1939-1963</td>
+                                                <td>
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener"
+                                                        href="https://en.wikipedia.org/wiki/Dallas"
+                                                        >Dallas, TX</a
+                                                    >
+                                                </td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener"
+                                                        href="https://en.wikipedia.org/wiki/Carl_Eugene_Watts"
+                                                        >Carl Eugene Watts</a
+                                                    >
+                                                </td>
+                                                <td>1953-2007</td>
+                                                <td>
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener"
+                                                        href="https://en.wikipedia.org/wiki/Killeen,_Texas"
+                                                        >Killeen, TX</a
+                                                    >
+                                                </td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener"
+                                                        href="https://en.wikipedia.org/wiki/Richard_Ramirez"
+                                                        >Richard Ramirez</a
+                                                    >
+                                                </td>
+                                                <td>1960-2013</td>
+                                                <td>
+                                                    <a
+                                                        target="_blank"
+                                                        rel="noopener"
+                                                        href="https://en.wikipedia.org/wiki/Greenbrae,_California"
+                                                        >Greenbrae, CA</a
+                                                    >
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
                                 </div>
                             </div>
                         </div>
@@ -220,7 +348,7 @@
                                     aria-expanded="false"
                                     aria-controls="collapseThree"
                                 >
-                                    ASIDE Item #3
+                                    Contact us!
                                 </button>
                             </h2>
                             <div
@@ -230,21 +358,87 @@
                                 data-bs-parent="#accordionExample"
                             >
                                 <div class="accordion-body">
-                                    <strong
-                                        >This is the third item's accordion
-                                        body.</strong
-                                    >
-                                    It is hidden by default, until the collapse
-                                    plugin adds the appropriate classes that we
-                                    use to style each element. These classes
-                                    control the overall appearance, as well as
-                                    the showing and hiding via CSS transitions.
-                                    You can modify any of this with custom CSS
-                                    or overriding our default variables. It's
-                                    also worth noting that just about any HTML
-                                    can go within the
-                                    <code>.accordion-body</code>, though the
-                                    transition does limit overflow.
+                                    <strong>We'd love to hear from you!</strong>
+                                    <div class="divCenter">
+                                        <form class="form-floating">
+                                            <div class="row">
+                                                <div class="col form-floating">
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="contactFirstname"
+                                                        placeholder="Jane"
+                                                        value=""
+                                                    />
+                                                    <label
+                                                        for="contactFirstname"
+                                                        >First name</label
+                                                    >
+                                                </div>
+                                                <div class="col form-floating">
+                                                    <input
+                                                        type="text"
+                                                        class="form-control"
+                                                        id="contactLastname"
+                                                        placeholder="Doe"
+                                                        value=""
+                                                    />
+                                                    <label for="contactLastname"
+                                                        >Last name</label
+                                                    >
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <form class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="contactEmail1"
+                                                placeholder="name@example.com"
+                                                value=""
+                                            />
+                                            <label for="contactEmail1"
+                                                >email Address</label
+                                            >
+                                        </form>
+                                        <form class="form-floating">
+                                            <input
+                                                type="email"
+                                                class="form-control"
+                                                id="contactEmail2"
+                                                placeholder="name@example.com"
+                                                value=""
+                                            />
+                                            <label for="contactEmail2"
+                                                >email Address Again</label
+                                            >
+                                        </form>
+                                        <div class="form-floating">
+                                            <textarea
+                                                class="form-control"
+                                                placeholder="Leave a comment here"
+                                                id="contactComment"
+                                                style="height: 100px"
+                                            ></textarea>
+                                            <label for="contactComment"
+                                                >Comments</label
+                                            >
+                                        </div>
+                                        <button
+                                            type="button"
+                                            id="contactSubmit"
+                                            class="btn btn-success"
+                                        >
+                                            Submit
+                                        </button>
+                                        <button
+                                            type="button"
+                                            id="contactCancel"
+                                            class="btn btn-danger"
+                                        >
+                                            Cancel
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -258,5 +452,6 @@
             crossorigin="anonymous"
         ></script>
         <script src="./assets/bootstrap/js/bootstrap.js"></script>
+        <script src="./assets/js/custom.js"></script>
     </body>
 </html>
