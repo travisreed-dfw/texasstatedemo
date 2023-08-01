@@ -19,7 +19,7 @@ div.trim {
     overflow: hidden;
 }
 
-div.divCenter {
+div#divCenter {
     text-align: center;
 }
 
