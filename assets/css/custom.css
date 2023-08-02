@@ -19,6 +19,28 @@ div.trim {
     overflow: hidden;
 }
 
+img#lonestar {
+    float: left;
+    transform: scale(0.5);
+}
+
+img.imgTex {
+    opacity: 0.666;
+}
+
+div.containerRelative {
+    position: relative;
+}
+
+div.cenetered {
+    position: absolute;
+    color: red;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
 div#divCenter {
     text-align: center;
 }
